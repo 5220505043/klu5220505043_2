@@ -13,6 +13,6 @@ bütün karakterler, alınan anahtar değeri kadar şifreleniyor:
    - `fprintf(dosya, "%s", metin);` bu girdiğimiz yazıyla şifrelenmiş metin dosyaya yazılıyor,
    - `fclose(dosya);` yazdığımız ifedeyle dosya kapatılıyor.
      
-Şifreleme işlemi sırasında kullanılan anahtar değeri ve şifrelenecek metin içeriğine bağlı olarak çıktı değişir. Örneğin, eğer "input.txt" dosyasında "Merhaba Dunya!" metni bulunuyorsa ve kullanıcı "anahtar" olarak 2 değerini girdiyse, çıktı şu olaçak:
+Şifreleme işlemi sırasında kullanılan anahtar değeri ve şifrelenecek metin içeriğine bağlı olarak çıktı değişir. Örneğin, eğer "input.txt" dosyasında "Merhaba Dunya!" metni bulunuyor ve kullanıcı "anahtar" olarak 2 değerini girdiyse, çıktı şu olaçak:
 
 `Ogtjdcb Fcpg!`
